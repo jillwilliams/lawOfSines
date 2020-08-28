@@ -72,7 +72,6 @@ p, ul {
     margin: 40px;
     display: inline-block;
 }
-
 #chooseProportion {
     font-size: 1.8rem;
     font-family: 'Shadows Into Light', cursive;
@@ -161,6 +160,24 @@ p, ul {
     margin-left: 11%;
     margin-right: 11%;
 }
+#pic1 {
+    width: 20%;
+    height: auto;
+    margin: 15px 40%;
+    border: 2px black solid;
+}
+#pic1b, #pic3, #pic3a {
+    width: 20%;
+    height: auto;
+    margin: 15px 40%;
+    border: 2px black solid;
+}
+#pic2, #pic4 {
+    width: 40%;
+    height: auto;
+    margin: 15px 30%;
+    border: 2px black solid;
+}
 /* SUBMIT BUTTON  */
 #submitButton {
     width: 10%;
@@ -175,19 +192,22 @@ p, ul {
     display: inline-block;
 }
 #demo1 {
-    width: 20%;
+    width: 30%;
     height: 50px;
     font-size: 1.5rem;
     font-family: 'Shadows Into Light', cursive;
     color: blue;
     background-color: yellow;
     border: 2px black solid;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 35%;
+    margin-right: 35%;
     display: inline-block;
     text-align: center;
     padding: 10px;
-
+}
+iframe {
+    margin: 15px 33%;
+    border: 2px black solid;
 }
 footer {
     font-size: 1rem;
